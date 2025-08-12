@@ -1,0 +1,16 @@
+.form-cont-web-container {
+    position: relative;
+    width: 100%;
+    padding-top: 150%;
+    /* Aspect ratio: altura baseada na largura */
+    overflow: hidden;
+}
+
+.form-cont-web-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
