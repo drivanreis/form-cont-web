@@ -1,9 +1,11 @@
+// File: src/main.tsx
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import FormContatoIFrameCustomizado from './components/form-cont-web'
+import FormContatoAmber from './components/formContatoAmber/FormContatoAmber'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <FormContatoIFrameCustomizado sitefilho="Form-Cont-WEB" />
+    <FormContatoAmber />
   </React.StrictMode>
 )
